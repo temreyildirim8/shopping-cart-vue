@@ -1,21 +1,23 @@
 # basket_app
 
-## Project setup
+## Installs project dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles
 ```
 npm run start
 ```
 
-### Run your unit tests
+### Run unit tests
 ```
 npm run test
 ```
+```
+```
 
-### Frameworks
+### Helper frameworks & libraries:
 ```
 bootstrap: for ui,
 jest: for testing,
