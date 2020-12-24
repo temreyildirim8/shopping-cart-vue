@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Emre\Desktop\basket-app\tests\components\basketItem.spec.js">
+    <testCase name="BasketItem it should parse data when component is rendered" duration="73"/>
+    <testCase name="BasketItem it should add to cart when click the button" duration="10"/>
+  </file>
+  <file path="C:\Users\Emre\Desktop\basket-app\tests\components\ProductItem.spec.js">
+    <testCase name="ProductItem it should parse data when component is rendered" duration="61"/>
+    <testCase name="ProductItem it should add to cart when click the button" duration="12"/>
+  </file>
+  <file path="C:\Users\Emre\Desktop\basket-app\tests\components\productList.spec.js">
+    <testCase name="ProductList it should render product list" duration="99"/>
+  </file>
+  <file path="C:\Users\Emre\Desktop\basket-app\tests\components\basketList.spec.js">
+    <testCase name="BasketList it should render basket list when length is zero" duration="113"/>
+    <testCase name="BasketList it should render basket list when length is more than zero" duration="92"/>
+    <testCase name="BasketList it should submit order when click the submit button" duration="137"/>
+    <testCase name="BasketList it should not submit order when out of stock" duration="46"/>
+    <testCase name="BasketList it should clear cart items when click button" duration="53"/>
+  </file>
+</testExecutions>
