@@ -46,4 +46,8 @@ export default {
   border-radius: 5px;
   margin: 5px;
 }
+.item:hover {
+  box-shadow: 0px -4px 24px 0px #b9b9b9;
+}
+
 </style>
