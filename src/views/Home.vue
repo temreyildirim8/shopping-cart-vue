@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-row>
-      <b-col>
+    <b-row class="navbar-row">
+      <b-col class="navbar-col">
         <b-navbar toggleable type="light">
           <router-link to="/" name="Basket">
             <b-navbar-brand href="/">Product List</b-navbar-brand>
@@ -27,6 +27,14 @@ export default {
 
 <style lang="scss">
 @use 'main.scss';
+
+.navbar-row {
+  margin: 0 !important;
+}
+
+.navbar-col {
+  padding: 0 !important;
+}
 
 .navbar {
   background-color: main.$bg-color !important;
